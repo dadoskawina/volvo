@@ -58,17 +58,20 @@ Do not use tools such as nltk or spacy.Instead, focus on implementing algorithms
   (in this implementation both are not removed but replaced by space), and `&nsbp;` that is simply removed.
 - The task doesn't state if letter case matter (e.g. if `HELLO` is the same word as `hello` and `heLLo`). 
   Assuming that case is irrelevant.
-- The task doesn't define expected order in case more words has the same number of occurrences. Decided to follow  
-  lexicographical order. 
+- The task doesn't define expected order in case more words has the same number of occurrences. Decided to follow lexicographical order. 
 
 ## Requirements
 
-Implementation doesn't have any special requirements (except for pytest library used for unit tests and colorlog library 
+Implementation doesn't have any special requirements (except for **pytest** library used for unit tests and **colorlog** library 
 to improve log output).
-As the code uses f-strings and new typehint notation, Python 3.10 or higher is required.
+As the code uses f-strings and new typehint notation, **Python 3.10** or higher is required.
 
 
 ## Usage
+
+0. Main code is in **src.html_text.py** module
+
+`from src.html_text import HtmlText`
 
 1. Initialize HtmlText class
 
@@ -86,3 +89,4 @@ or
 
 `processor.run()`
 
+4. Result in `results.txt` file will be stored in your working directory.
