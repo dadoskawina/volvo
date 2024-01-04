@@ -69,7 +69,7 @@ As the code uses f-strings and new typehint notation, **Python 3.10** or higher 
 
 ## Usage
 
-0. Main code is in **src.html_text.py** module
+0. Main code is in **src/html_text.py** module
 
 `from src.html_text import HtmlText`
 
